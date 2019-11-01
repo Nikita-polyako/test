@@ -1,0 +1,33 @@
+@font-face {
+  font-family:'PFD_r';
+  src: url(../fonts/PFDinTextPro-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family:'PFD_m';
+  src: url(../fonts/PFDinTextPro-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family:'PFD_l';
+  src: url(../fonts/PFDinTextPro-Light.ttf) format('truetype');
+}
+
+$PFD_r: 'PFD_r', Calibri, sans-serif;
+$PFD_m: 'PFD_m', Calibri, sans-serif;
+$PFD_l: 'PFD_l', Calibri, sans-serif;
+
+
+h1, h2, h3, h4, h5, h6{
+  font-weight:normal;
+}
+
+/* Common */
+html{
+  font-size:14px;
+  font-family:$PFD_r;
+  line-height:1;
+}
+a{
+  text-decoration:none;
+}
